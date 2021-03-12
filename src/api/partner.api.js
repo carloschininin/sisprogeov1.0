@@ -10,7 +10,7 @@ export default class PartnerApi extends Api {
         );
     }
     static getInfo(id) {
-        return Api.ajax.post(`${Api.SERVER_URL}/api/socio/data`, {
+        return Api.ajax.post(`${Api.SERVER_URL}/api/socio/info`, {
             socio_id: id
         });
     }
